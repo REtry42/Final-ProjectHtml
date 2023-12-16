@@ -1,0 +1,84 @@
+/* .indent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+} */
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+}
+
+/* header {
+  text-align: center;
+  background-image: url(Banner\ HS.jpg);
+  background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
+} */
+
+.img1 {
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+/* h1 {
+  margin: 0;
+  height: 220px;
+} */
+
+body {
+  background-color: burlywood;
+}
+
+p {
+  padding-left: 1rem;
+  word-spacing: 0.5px;
+}
+
+.img2 {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+tr {
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  width: 320px;
+  padding: 10px;
+  background-color: black;
+  border: 5px solid black;
+  margin: 0;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middle {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+footer {
+  /* padding: 1rem; */
+  margin-top: 250px;
+}
